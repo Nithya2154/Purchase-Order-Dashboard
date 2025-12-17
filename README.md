@@ -1,21 +1,20 @@
 📦 Purchase Order Dashboard
 
-A Purchase Order Analysis Dashboard built using Python, Pandas, and Streamlit.
-This project allows businesses to analyze purchase order data and generate key insights, trends, and KPIs through an interactive dashboard.
+A Purchase Order Analysis Dashboard built using Python, Pandas, and Streamlit. This project allows businesses to analyze purchase order data and generate key insights, trends, and KPIs through an interactive dashboard.
 
 🚀 Features
 
-Total number of orders & total purchase value
+Display total number of orders and total purchase value
 
-Purchase value by Supplier, Product, and Region
+Analyze purchase value by Supplier, Product, and Region
 
-Top suppliers and top products by quantity
+Identify top suppliers and top products by quantity
 
-Monthly & daily purchase trends
+Visualize monthly & daily purchase trends
 
-Average order value per supplier
+Calculate average order value per supplier
 
-Orders by status (Pending, Shipped, Delivered)
+Track orders by status (Pending, Shipped, Delivered)
 
 Highlight high-value orders dynamically
 
@@ -31,7 +30,7 @@ Pandas – Data cleaning, aggregation, and analysis
 
 Streamlit – Dashboard visualization and interactivity
 
-JSON – Data source for purchase orders  
+JSON – Data source for purchase orders
 
 📊 Dashboard KPIs
 
@@ -53,26 +52,32 @@ Orders with quantity above threshold
 
 Monthly purchase trend
 
+Daily purchase trend
+
 Average order value per Supplier
+
+Average unit price per product
 
 Orders by status
 
 High-value orders highlight
 
-Daily purchase trend
-
-Average unit price per product
-
 Filtered orders by status and region
 
 ▶️ How to Run the Project
-1️⃣ Install dependencies
+
+Install dependencies
+
 pip install -r requirements.txt
 
-2️⃣ Run the Streamlit app
+
+Run the Streamlit app
+
 streamlit run app.py
 
-3️⃣ Open in browser
+
+Open in browser
+
 http://localhost:8501
 
 📌 Sample Data Format (purchase.json)
@@ -95,15 +100,15 @@ Using groupby, filtering, and datetime operations
 
 Building interactive dashboards with Streamlit
 
-Business-focused KPIs and insights
+Understanding business-focused KPIs and insights
 
-Understanding of purchase trends, supplier performance, and high-value orders
+Analyzing purchase trends, supplier performance, and high-value orders
 
 🎯 Use Cases
 
 Portfolio project for data analysts
 
-Interview preparation for Python/Pandas roles
+Interview preparation for Python / Pandas roles
 
 Purchase / sales analytics dashboards
 
